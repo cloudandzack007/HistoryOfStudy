@@ -1,0 +1,62 @@
+﻿  stdafx.cpp
+d:\public\vs2015\vc\atlmfc\include\afx.h(38): warning C4996: 'MBCS_Support_Deprecated_In_MFC': MBCS support in MFC is deprecated and may be removed in a future version of MFC.
+  d:\public\vs2015\vc\atlmfc\include\afx.h(33): note: 参见“MBCS_Support_Deprecated_In_MFC”的声明
+  VirtualLinearListDlg.cpp
+  VirtualLinearList.cpp
+  arrayList.cpp
+d:\private\virtuallinearlist\virtuallinearlist\linearlist.h(13): error C2061: 语法错误: 标识符“ostream”
+  d:\private\virtuallinearlist\virtuallinearlist\linearlist.h(14): note: 参见对正在编译的类 模板 实例化“linearList<T>”的引用
+d:\private\virtuallinearlist\virtuallinearlist\arraylist.h(18): error C2061: 语法错误: 标识符“ostream”
+  d:\private\virtuallinearlist\virtuallinearlist\arraylist.h(27): note: 参见对正在编译的类 模板 实例化“arrayList<T>”的引用
+d:\private\virtuallinearlist\virtuallinearlist\arraylist.cpp(7): error C2244: “arrayList::arrayList”: 无法将函数定义与现有的声明匹配
+  d:\private\virtuallinearlist\virtuallinearlist\arraylist.cpp(4): note: 参见“arrayList::arrayList”的声明
+  d:\private\virtuallinearlist\virtuallinearlist\arraylist.cpp(7): note: 定义
+  d:\private\virtuallinearlist\virtuallinearlist\arraylist.cpp(7): note: 'arrayList::arrayList(int)'
+  d:\private\virtuallinearlist\virtuallinearlist\arraylist.cpp(7): note: 现有声明
+  d:\private\virtuallinearlist\virtuallinearlist\arraylist.cpp(7): note: 'arrayList<T>::arrayList(const arrayList<T> &)'
+  d:\private\virtuallinearlist\virtuallinearlist\arraylist.cpp(7): note: 'arrayList<T>::arrayList(int)'
+d:\private\virtuallinearlist\virtuallinearlist\arraylist.cpp(12): error C2244: “arrayList::arrayList”: 无法将函数定义与现有的声明匹配
+  d:\private\virtuallinearlist\virtuallinearlist\arraylist.cpp(9): note: 参见“arrayList::arrayList”的声明
+  d:\private\virtuallinearlist\virtuallinearlist\arraylist.cpp(12): note: 定义
+  d:\private\virtuallinearlist\virtuallinearlist\arraylist.cpp(12): note: 'arrayList::arrayList(const arrayList<T> &)'
+  d:\private\virtuallinearlist\virtuallinearlist\arraylist.cpp(12): note: 现有声明
+  d:\private\virtuallinearlist\virtuallinearlist\arraylist.cpp(12): note: 'arrayList<T>::arrayList(const arrayList<T> &)'
+  d:\private\virtuallinearlist\virtuallinearlist\arraylist.cpp(12): note: 'arrayList<T>::arrayList(int)'
+d:\private\virtuallinearlist\virtuallinearlist\arraylist.cpp(16): error C2244: “arrayList::~arrayList”: 无法将函数定义与现有的声明匹配
+  d:\private\virtuallinearlist\virtuallinearlist\arraylist.cpp(14): note: 参见“arrayList::~arrayList”的声明
+  d:\private\virtuallinearlist\virtuallinearlist\arraylist.cpp(16): note: 定义
+  d:\private\virtuallinearlist\virtuallinearlist\arraylist.cpp(16): note: 'arrayList::~arrayList(void)'
+  d:\private\virtuallinearlist\virtuallinearlist\arraylist.cpp(16): note: 现有声明
+  d:\private\virtuallinearlist\virtuallinearlist\arraylist.cpp(16): note: 'arrayList<T>::~arrayList(void)'
+d:\private\virtuallinearlist\virtuallinearlist\arraylist.cpp(21): error C2244: “arrayList::get”: 无法将函数定义与现有的声明匹配
+  d:\private\virtuallinearlist\virtuallinearlist\arraylist.cpp(18): note: 参见“arrayList::get”的声明
+  d:\private\virtuallinearlist\virtuallinearlist\arraylist.cpp(21): note: 定义
+  d:\private\virtuallinearlist\virtuallinearlist\arraylist.cpp(21): note: 'T &arrayList::get(int) const'
+  d:\private\virtuallinearlist\virtuallinearlist\arraylist.cpp(21): note: 现有声明
+  d:\private\virtuallinearlist\virtuallinearlist\arraylist.cpp(21): note: 'T &arrayList<T>::get(int) const'
+d:\private\virtuallinearlist\virtuallinearlist\arraylist.cpp(26): error C2244: “arrayList::indexOf”: 无法将函数定义与现有的声明匹配
+  d:\private\virtuallinearlist\virtuallinearlist\arraylist.cpp(23): note: 参见“arrayList::indexOf”的声明
+  d:\private\virtuallinearlist\virtuallinearlist\arraylist.cpp(26): note: 定义
+  d:\private\virtuallinearlist\virtuallinearlist\arraylist.cpp(26): note: 'int arrayList::indexOf(const T &) const'
+  d:\private\virtuallinearlist\virtuallinearlist\arraylist.cpp(26): note: 现有声明
+  d:\private\virtuallinearlist\virtuallinearlist\arraylist.cpp(26): note: 'int arrayList<T>::indexOf(const T &) const'
+d:\private\virtuallinearlist\virtuallinearlist\arraylist.cpp(31): error C2244: “arrayList::erase”: 无法将函数定义与现有的声明匹配
+  d:\private\virtuallinearlist\virtuallinearlist\arraylist.cpp(28): note: 参见“arrayList::erase”的声明
+  d:\private\virtuallinearlist\virtuallinearlist\arraylist.cpp(31): note: 定义
+  d:\private\virtuallinearlist\virtuallinearlist\arraylist.cpp(31): note: 'void arrayList::erase(int)'
+  d:\private\virtuallinearlist\virtuallinearlist\arraylist.cpp(31): note: 现有声明
+  d:\private\virtuallinearlist\virtuallinearlist\arraylist.cpp(31): note: 'void arrayList<T>::erase(int)'
+d:\private\virtuallinearlist\virtuallinearlist\arraylist.cpp(36): error C2244: “arrayList::insert”: 无法将函数定义与现有的声明匹配
+  d:\private\virtuallinearlist\virtuallinearlist\arraylist.cpp(33): note: 参见“arrayList::insert”的声明
+  d:\private\virtuallinearlist\virtuallinearlist\arraylist.cpp(36): note: 定义
+  d:\private\virtuallinearlist\virtuallinearlist\arraylist.cpp(36): note: 'void arrayList::insert(int,const T &)'
+  d:\private\virtuallinearlist\virtuallinearlist\arraylist.cpp(36): note: 现有声明
+  d:\private\virtuallinearlist\virtuallinearlist\arraylist.cpp(36): note: 'void arrayList<T>::insert(int,const T &)'
+d:\private\virtuallinearlist\virtuallinearlist\arraylist.cpp(38): error C2065: “ostream”: 未声明的标识符
+d:\private\virtuallinearlist\virtuallinearlist\arraylist.cpp(38): error C2065: “out”: 未声明的标识符
+d:\private\virtuallinearlist\virtuallinearlist\arraylist.cpp(38): error C2182: “output”: 非法使用“void”类型
+d:\private\virtuallinearlist\virtuallinearlist\arraylist.cpp(38): error C2470: “arrayList<T>::output”: 看起来像函数定义，但没有参数列表；跳过明显的函数体
+d:\private\virtuallinearlist\virtuallinearlist\arraylist.cpp(38): error C2072: “arrayList<T>::output”: 函数的初始化
+d:\private\virtuallinearlist\virtuallinearlist\arraylist.cpp(38): error C2988: 不可识别的模板声明/定义
+d:\private\virtuallinearlist\virtuallinearlist\arraylist.cpp(38): error C2059: 语法错误:“const”
+  正在生成代码...

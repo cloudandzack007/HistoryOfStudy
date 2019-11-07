@@ -1,0 +1,6 @@
+﻿  Observer.cpp
+d:\private\observer\observer\observer.cpp(153): warning C4305: “参数”: 从“double”到“float”截断
+d:\private\observer\observer\observer.cpp(154): warning C4305: “参数”: 从“double”到“float”截断
+d:\private\observer\observer\observer.cpp(155): warning C4305: “参数”: 从“double”到“float”截断
+d:\private\observer\observer\observer.cpp(156): warning C4305: “参数”: 从“double”到“float”截断
+  Observer.vcxproj -> D:\Private\Observer\Debug\Observer.exe
